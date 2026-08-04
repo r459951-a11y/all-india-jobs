@@ -1,31 +1,67 @@
-// Search Jobs
-function searchJobs() {
-    let input = document.getElementById("search").value.toLowerCase();
-    let jobs = document.getElementsByClassName("job-card");
-
-    for (let i = 0; i < jobs.length; i++) {
-        let title = jobs[i].innerText.toLowerCase();
-
-        if (title.includes(input)) {
-            jobs[i].style.display = "block";
-        } else {
-            jobs[i].style.display = "none";
-        }
-    }
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
-// Registration Success
-function registerCandidate() {
-    alert("✅ Registration Submitted Successfully!");
+body{
+background:#f4f7fb;
+color:#333;
 }
 
-// WhatsApp Button
-function whatsapp() {
-    window.open("https://wa.me/91YOURNUMBER");
+header{
+background:#0d47a1;
+color:#fff;
+padding:20px;
+text-align:center;
 }
 
-// Scroll to Top
-window.onscroll = function () {
-    let btn = document.getElementById("topBtn");
-    if (!btn) return;
-    if (document.body.scrollTop > 
+nav{
+background:#1565c0;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin:0 12px;
+font-weight:bold;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:#fff;
+padding:20px;
+margin:15px 0;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+
+button{
+background:#0d47a1;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#08306b;
+}
+
+footer{
+background:#0d47a1;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
