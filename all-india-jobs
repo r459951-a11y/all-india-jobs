@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All India Jobs Portal</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f5f5f5}
+header{background:#0d47a1;color:#fff;padding:20px;text-align:center}
+nav{background:#1565c0;padding:12px;text-align:center}
+nav a{color:#fff;text-decoration:none;margin:15px;font-weight:bold}
+.hero{background:#1976d2;color:#fff;padding:50px 20px;text-align:center}
+.hero input{width:90%;max-width:500px;padding:12px;border:none;border-radius:6px;margin-top:15px}
+.section{width:90%;max-width:1100px;margin:30px auto}
+.card{background:#fff;padding:20px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.2);margin-bottom:20px}
+.job{border-left:5px solid #1976d2;padding:15px;margin-top:15px;background:#fafafa}
+.btn{background:#28a745;color:#fff;padding:10px 20px;text-decoration:none;border-radius:5px;display:inline-block;margin-top:10px}
+footer{background:#0d47a1;color:#fff;text-align:center;padding:20px;margin-top:30px}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>🇮🇳 ALL INDIA JOBS PORTAL</h1>
+<p>Government & Private Jobs Across India</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Govt Jobs</a>
+<a href="#">Private Jobs</a>
+<a href="#">Register</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+<h2>Find Your Dream Job</h2>
+<p>Search Latest Jobs Across India</p>
+<input type="text" placeholder="Search Jobs...">
+</section>
+
+<div class="section">
+
+<div class="card">
+<h2>Latest Government Jobs</h2>
+
+<div class="job">
+<h3>SSC CHSL Recruitment</h3>
+<p>Qualification: 12th Pass</p>
+<a class="btn" href="#">Apply Now</a>
+</div>
+
+<div class="job">
+<h3>Railway Group D</h3>
+<p>Qualification: 10th Pass</p>
+<a class="btn" href="#">Apply Now</a>
+</div>
+
+<div class="job">
+<h3>UP Police Constable</h3>
+<p>Qualification: 12th Pass</p>
+<a class="btn" href="#">Apply Now</a>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Registration Fee</h2>
+<h1 style="color:red;">₹200</h1>
+<p>Pay using your QR Code or UPI ID.</p>
+</div>
+
+<div class="card">
+<h2>Candidate Registration</h2>
+
+<input type="text" placeholder="Full Name"><br><br>
+<input type="tel" placeholder="Mobile Number"><br><br>
+<input type="email" placeholder="Email"><br><br>
+
+<select>
+<option>Select Qualification</option>
+<option>10th</option>
+<option>12th</option>
+<option>ITI</option>
+<option>Diploma</option>
+<option>Graduate</option>
+</select><br><br>
+
+<input type="text" placeholder="Transaction ID"><br><br>
+
+<input type="file"><br><br>
+
+<button class="btn">Submit Application</button>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 All India Jobs Portal | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
