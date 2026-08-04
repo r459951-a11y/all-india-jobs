@@ -1,0 +1,31 @@
+// Search Jobs
+function searchJobs() {
+    let input = document.getElementById("search").value.toLowerCase();
+    let jobs = document.getElementsByClassName("job-card");
+
+    for (let i = 0; i < jobs.length; i++) {
+        let title = jobs[i].innerText.toLowerCase();
+
+        if (title.includes(input)) {
+            jobs[i].style.display = "block";
+        } else {
+            jobs[i].style.display = "none";
+        }
+    }
+}
+
+// Registration Success
+function registerCandidate() {
+    alert("✅ Registration Submitted Successfully!");
+}
+
+// WhatsApp Button
+function whatsapp() {
+    window.open("https://wa.me/91YOURNUMBER");
+}
+
+// Scroll to Top
+window.onscroll = function () {
+    let btn = document.getElementById("topBtn");
+    if (!btn) return;
+    if (document.body.scrollTop > 
