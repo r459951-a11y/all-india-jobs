@@ -1,1 +1,14 @@
+<div class="card">
+<h2>Registration Fee</h2>
+
+<h1 style="color:red;">₹200</h1>
+
+<p>Pay ₹200 and complete your registration.</p>
+
 <img src="qr.jpg" alt="QR Code" width="250">
+
+<p><b>UPI ID:</b> 7494005371@nyes</p>
+
+<p><b>Name:</b> Rahul Kumar</p>
+
+</div>
